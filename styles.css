@@ -195,3 +195,9 @@ nav a:hover {
     padding: 8px 6px;
   }
 }
+/* Make sure CTA links are clickable above any overlays */
+.btn, .cta {
+  position: relative;
+  z-index: 5;
+  pointer-events: auto;
+}
